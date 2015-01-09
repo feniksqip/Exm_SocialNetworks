@@ -14,6 +14,7 @@
 		842D024B1A60678F006CF3FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D024A1A60678F006CF3FE /* Images.xcassets */; };
 		842D024E1A60678F006CF3FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842D024C1A60678F006CF3FE /* LaunchScreen.xib */; };
 		842D025A1A60678F006CF3FE /* Exm_SocialNetworksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D02591A60678F006CF3FE /* Exm_SocialNetworksTests.m */; };
+		842D02641A6069B8006CF3FE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842D02631A6069B8006CF3FE /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		842D02531A60678F006CF3FE /* Exm_SocialNetworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exm_SocialNetworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D02581A60678F006CF3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842D02591A60678F006CF3FE /* Exm_SocialNetworksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exm_SocialNetworksTests.m; sourceTree = "<group>"; };
+		842D02631A6069B8006CF3FE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D02641A6069B8006CF3FE /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		842D02311A60678E006CF3FE = {
 			isa = PBXGroup;
 			children = (
+				842D02631A6069B8006CF3FE /* Social.framework */,
 				842D023C1A60678E006CF3FE /* Exm_SocialNetworks */,
 				842D02561A60678F006CF3FE /* Exm_SocialNetworksTests */,
 				842D023B1A60678E006CF3FE /* Products */,

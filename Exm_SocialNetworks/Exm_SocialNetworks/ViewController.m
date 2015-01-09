@@ -24,4 +24,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)twitterBtn:(id)sender {
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        SLComposeViewController *composeCtrl = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        NSString *text = @"Text for Twitter !";
+        [composeCtrl setInitialText:text];
+        [self presentViewController:composeCtrl animated:YES completion:nil];
+    }
+    
+        
+    
+ //   SLComposeViewController *socialComposeCtrl = [[SLComposeViewController alloc] init];
+//    if (socialComposeCtrl tw) {
+//        <#statements#>
+//    } else {
+//        <#statements#>
+//    }
+    
+}
+
+- (IBAction)facebookBtn:(id)sender {
+}
 @end

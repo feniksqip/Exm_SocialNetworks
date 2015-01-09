@@ -22,6 +22,9 @@
                                 <state key="normal" title="Message to Facebook">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="facebookBtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m3O-2e-yil"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jB-yc-vn7">
                                 <rect key="frame" x="16" y="157" width="200" height="70"/>
@@ -29,6 +32,9 @@
                                 <state key="normal" title="Message to Twitter">
                                     <color key="titleColor" red="0.1753669507575758" green="0.16077818423766688" blue="0.0017576195901562851" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="twitterBtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wn6-NK-0x0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

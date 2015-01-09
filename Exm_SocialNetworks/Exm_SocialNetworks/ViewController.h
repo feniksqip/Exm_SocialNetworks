@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 
 @interface ViewController : UIViewController
 
+- (IBAction)twitterBtn:(id)sender;
+- (IBAction)facebookBtn:(id)sender;
 
 @end
 
